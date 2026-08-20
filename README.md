@@ -203,7 +203,7 @@ The first attempt failed.
 
 <img src="./10%20invalid%20creds.png" alt="Invalid administrator credentials">
 
-After correlating the information discovered during the previous stages, I was able to authenticate successfully.
+After correlating the information discovered during the previous stages, I was able to authenticate successfully without @.
 
 ---
 
@@ -241,7 +241,7 @@ I injected an additional command:
 sys=date;cat /home/ubuntu/user.txt
 ```
 
-<img src="./12%20cmd%20injection%20flag.png" alt="Command injection and user flag">
+<img src="./12%20cmd%20injection%20flag%20.png" alt="Command injection and user flag">
 
 The injected command was executed successfully and returned the contents of the user flag.
 
